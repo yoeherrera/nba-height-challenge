@@ -6,4 +6,6 @@ For purpose of efficiency an auxiliary find_index function is defined. This func
 
 Finally, the find_matching_pairs function is defined and the testing file is also provided. Two test functions are provided, one for the mininum number which returns at least a matching pair, and other for different values which returns "No matching pairs found!"  
 
+The time complexity of this function is less than O(n^2) since binary search is O(log_2(n)) and sort a list and look for elements in a list are both O(nlog_2(n)). Hence, this algorithm is at most O(nlog_2(n)) which is faster than O(n^2).
+
 Thanks for reading.
